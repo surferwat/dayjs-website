@@ -13,7 +13,7 @@ dayjs.extend(relativeTime)
 var a = dayjs()
 var b = dayjs('1990-01-01')
 
-a.from(b) // 2 years ago
+b.from(a) // 2 years ago
 ```
 
 If you pass true, you can get the value without the suffix.
